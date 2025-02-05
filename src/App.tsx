@@ -59,7 +59,7 @@ function App() {
             パピ語変換
           </h1>
           <p className="text-gray-600 text-center mb-6">
-            スペースで区切られたパピ語を日本語に変換します
+            パピ語を日本語に変換します
           </p>
 
           <div className="space-y-4">
@@ -72,7 +72,7 @@ function App() {
                 value={input}
                 onChange={handleInputChange}
                 className="w-full h-32 p-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent resize-none"
-                placeholder="例: ぱぱ ぱぴ (あい)"
+                placeholder="例：ぽぱ ぴぱ ぷぱぽ ぴぷ ぷぴ ぺぺ ぽぺ！(なかよくしてね！)"
               />
             </div>
 
